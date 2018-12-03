@@ -1,0 +1,361 @@
+html { overflow-x:  hidden}
+a {text-decoration: none}
+a {color: white;}
+a:visited {color: white;}
+
+.wrapper1 {
+    max-width: 100%;
+    
+}
+
+.header{
+    top: 32px;
+    max-width: 1504px;
+    margin: auto;
+    position: relative; 
+    display: flex  
+}
+
+.header-text{    
+    padding: 11px;
+    color: white;
+    justify-content: space-between;
+    position: absolute;
+    font-family: Roboto Condensed;
+    box-sizing: border-box;
+    font-size: 20px;
+    right: 60px;
+}
+
+
+.header-text a{
+    padding: 10px;
+}
+
+.header-btn{background: url(photos/menu.svg) center center / contain no-repeat;
+    height: 30px;
+    width: 35px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    display: none
+}
+
+
+.header-logo{
+    position: absolute;
+    display: flex;
+    left: 10px;
+    top: -37px;
+}
+
+.header-logo-img{
+    background: url(photos/spasskaya-tower.png) no-repeat;
+    padding: 25px;
+    background-size: 46px;
+    margin-top: 28px;
+}
+.header-logo-text{
+    color: yellow;
+    font-size: 30px;
+    font-family: MV Boli; 
+}
+
+.main{
+    background-image: url(photos/top1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+.black{
+    background: rgba(0,0,0,0.4);
+    height: 640px;
+    box-sizing: border-box;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    flex-wrap: wrap
+
+}
+
+.main-block-text{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 140px
+}
+
+.button {
+    background: rgb(112, 157, 202);
+    width: 219px;
+    color: white;
+    font-family: condensed;
+    line-height: 50px;
+    text-align: center;
+    margin: auto;
+    font-size: 21px;
+    border-radius: 6px;
+}
+
+.nav{    
+    background-color: white;
+    color: rgb(112, 157, 202);
+    font-size: 30px;
+    text-align: center; 
+    font-family: condensed;}    
+.wrapper2{    
+    max-width: 100%;
+    background-color: rgb(255, 193, 85);
+}
+
+.blocks{    
+    max-width: 1504px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    border-bottom: 70px solid white;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-basis: 300px;
+    flex-grow: 1;
+    
+}
+
+.block-pic{
+    width: 50%;
+}
+
+.button-odd {
+    width: 112px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    background: rgb(231, 173, 13);
+    font-size: 11px;
+    border: 2px solid rgb(203, 141, 33);
+    float: left
+}
+
+.button-even {
+    width: 112px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    background: rgb(231, 173, 13);
+    font-size: 11px;
+    border: 2px solid rgb(203, 141, 33);
+    float: right
+}
+
+.block-text-odd{
+    width: 50%;
+    color: white;
+    text-align: left
+}
+
+.block-text-even{
+    width: 50%;
+    color: white;
+    text-align: right;
+}
+
+.block-pic.one{
+    background: url(photos/3_01.jpg) center center no-repeat / cover;
+    background-size: cover;
+}
+
+.block-pic.two{
+    background: url(photos/2_02.jpg) center center no-repeat / cover;
+}
+
+.block-pic.three{
+    background: url(photos/3_03.jpg) center center no-repeat / cover;
+    background-size: cover;
+}
+
+.block-pic.four{
+    background: url(photos/2_04.jpg) center center no-repeat / cover;;
+    background-size: cover;
+}
+
+
+.wrapper6 {
+    max-width: 100%;
+    background-color: rgb(39, 58, 67);
+    
+}
+.footer {
+    max-width: 1504px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    color: antiquewhite;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap
+
+}
+
+.trips-b{
+    min-width: 33.3333%;
+    box-sizing: border-box;  
+    flex-grow: 1;
+    flex-basis: 300px;
+    display: flex
+
+}
+.atp{
+    display: flex;
+
+}
+.atp p{
+    font-size: 20px
+}
+
+
+
+.trips-b-text {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+.trips-b-text h3{
+    font-size: 330x;
+    color: white;
+}
+
+.trips-b-text h2{
+    color: yellow;;
+    font-size: 37px;
+    font-family: MV Boli; 
+    padding-left: 79px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.trips-b-img1{
+    background-image: url("photos/spasskaya-tower.png") ;
+    background-size: 67px;
+    padding: 38px;
+    padding-bottom: 57px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 28px;
+    top: 19px;
+}
+
+.trips-b-img2{
+    background-image: url("photos/placeholder.png");
+    background-size: 56px;
+    padding: 45px;
+    background-repeat: no-repeat;
+}
+
+.trips-b-img3{
+    background-image: url("photos/mail.png");
+    background-size: 56px;
+    padding: 45px;
+    background-repeat: no-repeat;
+}
+
+.trips-b-img4{
+    background-image: url("photos/telephone.png");
+    background-size: 56px;
+    padding: 45px;
+    background-repeat: no-repeat;
+}
+
+.wrapper7{
+    max-width: 100%;
+    background: rgb(23, 34, 39);}
+
+.footer-down{
+    background: rgb(23, 34, 39);
+    box-sizing: border-box;
+    padding: 40px 40px;
+    display: flex;
+    max-width: 1504px;
+    margin-right: auto;
+    margin-left: auto; 
+    flex-wrap: wrap;
+
+}
+
+.footer-down-block{ 
+    width: 33.3333%;
+    color: white;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 300px;
+    
+}
+.social{
+    padding-top: 8px;
+}
+
+.vk{
+    background: url(photos/vk.png) center center / contain no-repeat;
+    height: 40px;
+    width: 40px;
+    padding: 18px;
+    padding-top: 0px;
+}
+.fb{
+    background: url(photos/facebook.png) center center / contain no-repeat;
+    height: 40px;
+    width: 40px;
+    padding: 18px;
+    padding-top: 0px;
+    background-color: white;}
+.ig{
+    background: url(photos/instagram.png) center center / contain no-repeat;
+    height: 40px;
+    width: 40px;
+    padding: 18px;
+    padding-top: 0px;
+    background-color: white;
+}
+
+/* Всплывающее окно */
+@media (
+    max-width: 900px) {
+.header-text {
+     display: none;
+    }
+
+.header-btn {
+    display: block;
+    }
+}
+
+.mini-menu{
+    position: fixed;
+    top:0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background: #0f0b20ad;
+    z-index: 999999999;
+    display: none;
+  
+}
+
+.mini-menu-header-text{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    font-family: Roboto Condensed;
+    text-align: center;
+    padding-top: 30%
+}
